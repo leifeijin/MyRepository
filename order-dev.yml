@@ -7,3 +7,7 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/order?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2B8
     username: root
     password: admin123
+env: dev
+girl:
+  name: ceshi
+  age: 18
