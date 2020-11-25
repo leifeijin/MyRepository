@@ -2,10 +2,8 @@ spring:
   application:
     name: order
   datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    password: 123
-    url: jdbc:mysql://127.0.0.1:3306/springcloud?characterEncoding=utf-8&useSSL=false
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/order?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2B8
     username: root
-  jpa:
-    show-sql: true
-env: dev
+    password: admin123
